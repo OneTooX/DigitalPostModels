@@ -1,6 +1,6 @@
-﻿namespace OneTooX.DigitalPost.Models.AttentionData
+﻿namespace OneTooX.DigitalPost.Model.AttentionData
 {
-    using OneTooX.DigitalPost.Models.Common;
+    using OneTooX.DigitalPost.Model.Common;
 
     public class AttentionData
     {

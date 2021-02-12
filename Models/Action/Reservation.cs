@@ -1,4 +1,4 @@
-﻿namespace OneTooX.DigitalPost.Models.Action
+﻿namespace OneTooX.DigitalPost.Model.Action
 {
     using System;
 

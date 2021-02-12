@@ -1,4 +1,4 @@
-﻿namespace OneTooX.DigitalPost.Models.Common
+﻿namespace OneTooX.DigitalPost.Model.Common
 {
     public class ProductionUnit
     {

@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace OneTooX.DigitalPost.Models.Action
+﻿namespace OneTooX.DigitalPost.Model.Action
 {
+    using System;
+
     class Action
     {
         public string Label { get; set; }

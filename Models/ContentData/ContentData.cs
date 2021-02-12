@@ -1,6 +1,6 @@
-﻿namespace OneTooX.DigitalPost.Models.ContentData
+﻿namespace OneTooX.DigitalPost.Model.ContentData
 {
-    using OneTooX.DigitalPost.Models.Common;
+    using OneTooX.DigitalPost.Model.Common;
 
     public class ContentData
     {

@@ -1,4 +1,4 @@
-﻿namespace OneTooX.DigitalPost.Models.ContentData
+﻿namespace OneTooX.DigitalPost.Model.ContentData
 {
     public class CprData
     {

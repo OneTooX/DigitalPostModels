@@ -1,4 +1,4 @@
-﻿namespace OneTooX.DigitalPost.Models.AttentionData
+﻿namespace OneTooX.DigitalPost.Model.AttentionData
 {
     public class AttentionPerson
     {
