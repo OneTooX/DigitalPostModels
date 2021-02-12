@@ -3,6 +3,21 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>OneTooX.DigitalPost.Models</RootNamespace>
+    <PackageId>OneTooX.DigitalPost.Model</PackageId>
+    <Authors>Fiftytwo A/S</Authors>
+    <Product>OneTooX.DigitalPost.Model</Product>
+    <Description>Model classes for OneTooX delivery to Next Generation Digital Post</Description>
+    <Copyright>Fiftytwo A/S</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>OneTooX-h25.png</PackageIcon>
+    <PackageTags>OneTooX NgDP Digital Post DigitalPost model</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="img\OneTooX-h25.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
