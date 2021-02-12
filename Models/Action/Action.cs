@@ -2,7 +2,7 @@
 {
     using System;
 
-    class Action
+    public class Action
     {
         public string Label { get; set; }
         public string ActionCode { get; set; }
