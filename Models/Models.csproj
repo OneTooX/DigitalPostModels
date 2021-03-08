@@ -11,6 +11,8 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>OneTooX-h25.png</PackageIcon>
     <PackageTags>OneTooX NgDP Digital Post DigitalPost model</PackageTags>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>DPModels.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
