@@ -2,7 +2,7 @@
 {
     public class GlobalLocationNumber
     {
-        public int globalLocationNumber { get; set; }
+        public long globalLocationNumber { get; set; }
 
         public string location { get; set; }
     }
