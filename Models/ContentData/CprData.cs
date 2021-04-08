@@ -2,7 +2,7 @@
 {
     public class CprData
     {
-        public int cprNumber { get; set; }
+        public long cprNumber { get; set; }
         public string name { get; set; }
     }
 }
