@@ -9,7 +9,10 @@
     {
         public Organization[] Organisations { get; set; }
     }
-
+    public class ContactPointsResult : Result
+    {
+        public ContactPoint.ContactPoint[] ContactPoints { get; }
+    }
     public abstract class Result
     {
         public int CurrentPage { get; set; }
