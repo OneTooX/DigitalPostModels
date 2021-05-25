@@ -1,4 +1,4 @@
-﻿namespace OneTooX.DigitalPost.Model
+﻿namespace OneTooX.DigitalPost.Model.Result
 {
     public class ContactsResult : Result
     {
@@ -11,7 +11,7 @@
     }
     public class ContactPointsResult : Result
     {
-        public ContactPoint.ContactPoint[] ContactPoints { get; }
+        public ContactPoint[] ContactPoints { get; }
     }
     public abstract class Result
     {

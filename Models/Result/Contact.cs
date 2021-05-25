@@ -1,4 +1,4 @@
-﻿namespace OneTooX.DigitalPost.Model
+﻿namespace OneTooX.DigitalPost.Model.Result
 {
     using System;
 
