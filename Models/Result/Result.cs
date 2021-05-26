@@ -11,7 +11,7 @@
     }
     public class ContactPointsResult : Result
     {
-        public ContactPoint[] ContactPoints { get; }
+        public ContactPoint[] ContactPoints { get; set; }
     }
     public abstract class Result
     {
