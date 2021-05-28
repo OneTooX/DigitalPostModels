@@ -13,9 +13,27 @@
         public bool Active { get; set; }
         public bool Visible { get; set; }
         public Guid OrganisationId { get; set; }
-        public string[] ContactPointCodes { get; set; }
+        public ContactPointCode[] ContactPointCodes { get; set; }
         public Guid[] ContactGroups { get; set; }
         public string[] RecommendedAttributes { get; set; }
         public string[] SearchTems { get; set; }
+    }
+
+    public class ContactPointCode
+    {
+        public string Name { get; set; }
+        public ContactPointCodeType Type { get; set; }
+        public string Code { get; set; }
+        public string CodeVersion { get; set; }
+        public string ContactPointCodeTypeName { get; set; }
+    }
+
+    public enum ContactPointCodeType
+    {
+        Form,
+        Kle,
+        Gln,
+        Sor,
+        Custom
     }
 }
