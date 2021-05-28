@@ -22,7 +22,7 @@
     public class ContactPointCode
     {
         public string Name { get; set; }
-        public ContactPointCodeType Type { get; set; }
+        public string Type { get; set; }
         public string Code { get; set; }
         public string CodeVersion { get; set; }
         public string ContactPointCodeTypeName { get; set; }
@@ -30,10 +30,10 @@
 
     public enum ContactPointCodeType
     {
-        Form,
-        Kle,
-        Gln,
-        Sor,
-        Custom
+        FORM,
+        KLE,
+        GLN,
+        SOR,
+        CUSTOM
     }
 }
