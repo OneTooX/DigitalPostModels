@@ -15,7 +15,7 @@
         public Guid OrganisationId { get; set; }
         public ContactPointCode[] ContactPointCodes { get; set; }
         public Guid[] ContactGroups { get; set; }
-        public string[] RecommendedAttributes { get; set; }
+        public RecommendedAttribute[] RecommendedAttributes { get; set; }
         public string[] SearchTems { get; set; }
     }
 
@@ -28,6 +28,12 @@
         public string ContactPointCodeTypeName { get; set; }
     }
 
+    public class RecommendedAttribute
+    {
+        public string Id { get; set; }
+        public int Vesrsion { get; set; }
+        public string Name { get; set; }
+    }
     public enum ContactPointCodeType
     {
         FORM,
