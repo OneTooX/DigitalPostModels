@@ -14,11 +14,10 @@
         public bool Visible { get; set; }
         public Guid OrganisationId { get; set; }
         public ContactPointCode[] ContactPointCodes { get; set; }
-        public Guid[] ContactGroups { get; set; }
+        public ContactGroup[] ContactGroups { get; set; }
         public RecommendedAttribute[] RecommendedAttributes { get; set; }
         public string[] SearchTems { get; set; }
     }
-
     public class ContactPointCode
     {
         public string Name { get; set; }
@@ -27,7 +26,6 @@
         public string CodeVersion { get; set; }
         public string ContactPointCodeTypeName { get; set; }
     }
-
     public class RecommendedAttribute
     {
         public string Id { get; set; }
@@ -41,5 +39,14 @@
         GLN,
         SOR,
         CUSTOM
+    }
+    public class ContactGroup
+    {
+        public Guid Id { get; set; }
+        public bool OrganisationalUnit { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public Guid OrganisationId { get; set; }
+        public ContactGroup Parent { get; set; }
     }
 }
