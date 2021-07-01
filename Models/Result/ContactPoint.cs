@@ -8,7 +8,7 @@
         public string Name { get; set; }
         public string Description { get; set; }
         public string[] Targets { get; set; }
-        public int MemoSizeThresholdMB { get; set; }
+        public float MemoSizeThresholdMB { get; set; }
         public int AllowedNumberOfAttachments { get; set; }
         public bool Active { get; set; }
         public bool Visible { get; set; }
