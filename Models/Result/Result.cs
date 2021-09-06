@@ -13,6 +13,10 @@
     {
         public ContactPoint[] ContactPoints { get; set; }
     }
+    public class ContactGroupsResult : Result
+    {
+        public ContactGroup[] ContactGroup { get; set; }
+    }
     public abstract class Result
     {
         public int CurrentPage { get; set; }
