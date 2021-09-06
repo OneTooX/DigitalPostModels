@@ -15,7 +15,7 @@
     }
     public class ContactGroupsResult : Result
     {
-        public ContactGroup[] ContactGroup { get; set; }
+        public ContactGroup[] ContactGroups { get; set; }
     }
     public abstract class Result
     {
