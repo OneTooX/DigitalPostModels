@@ -8,7 +8,7 @@
         public string Name { get; set; }
         public string Description { get; set; }
         public string[] Targets { get; set; }
-        public float MemoSizeThresholdMB { get; set; }
+        public float MemoSizeThresholdMb { get; set; }
         public int AllowedNumberOfAttachments { get; set; }
         public bool Active { get; set; }
         public bool Visible { get; set; }
@@ -17,6 +17,7 @@
         public ContactGroup[] ContactGroups { get; set; }
         public RecommendedAttribute[] RecommendedAttributes { get; set; }
         public string[] SearchTems { get; set; }
+        public Translation[] Translations { get; set; }
     }
     public class ContactPointCode
     {
@@ -32,12 +33,19 @@
         public int Vesrsion { get; set; }
         public string Name { get; set; }
     }
+    public class Translation
+    {
+        public Guid Id { get; set; }
+        public int Version { get; set; }
+        public int PostkasseId { get; set; }
+        public int PostkasseEmneId { get; set; }
+    }
     public enum ContactPointCodeType
     {
-        FORM,
-        KLE,
-        GLN,
-        SOR,
-        CUSTOM
+        Form,
+        Kle,
+        Gln,
+        Sor,
+        Custom
     }
 }
