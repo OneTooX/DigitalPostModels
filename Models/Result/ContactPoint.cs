@@ -16,7 +16,7 @@
         public ContactPointCode[] ContactPointCodes { get; set; }
         public ContactGroup[] ContactGroups { get; set; }
         public RecommendedAttribute[] RecommendedAttributes { get; set; }
-        public string[] SearchTems { get; set; }
+        public string[] SearchTerms { get; set; }
         public Translation[] Translations { get; set; }
     }
     public class ContactPointCode

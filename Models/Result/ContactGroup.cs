@@ -10,5 +10,7 @@
         public string Description { get; set; }
         public Organization Organisation { get; set; }
         public ContactGroup Parent { get; set; }
+        public string[] Targets { get; set; }
+        public Guid[] PostkasseIds { get; set; }
     }
 }
