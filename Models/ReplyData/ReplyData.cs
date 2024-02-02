@@ -5,8 +5,8 @@ namespace OneTooX.DigitalPost.Model.ReplyData
     public class ReplyData
     {
         public string MessageId { get; set; }
-        public Guid MessageUuid { get; set; }
-        public Guid ReplyUuid { get; set; }
+        public Guid? MessageUuid { get; set; }
+        public Guid? ReplyUuid { get; set; }
         public string SenderId { get; set; }
         public string RecipientId { get; set; }
         public string CaseId { get; set; }
