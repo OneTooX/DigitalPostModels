@@ -5,9 +5,9 @@ name: .NET
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "GithubActions" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "GithubActions" ]
 
 jobs:
   build:
@@ -29,4 +29,4 @@ jobs:
     - name: Create the package
       run: dotnet pack --configuration Release Models
     - name: Publish the package to GPR
-      run: dotnet nuget push Models/bin/Release/*.nupkg
+      run: dotnet nuget push Models/bin/Release/**/models.dll
