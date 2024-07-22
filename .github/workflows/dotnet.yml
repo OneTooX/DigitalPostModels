@@ -41,5 +41,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
            name: models
-           path: Models/**/Models.dll
+           path: Models/bin/**/Models.dll
 
