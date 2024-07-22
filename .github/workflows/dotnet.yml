@@ -27,6 +27,6 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Create the package
-      run: dotnet pack --configuration Release DigitalPostModels
+      run: dotnet pack --configuration Release Models
     - name: Publish the package to GPR
-      run: dotnet nuget push DigitalPostModels/bin/Release/*.nupkg
+      run: dotnet nuget push Models/bin/Release/*.nupkg
