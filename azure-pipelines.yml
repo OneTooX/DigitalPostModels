@@ -2,7 +2,7 @@ variables:
   ${{ if eq(length(split(variables['Build.SourceBranchName'], '.')), 2) }}:
     otxVersion: ${{ variables['Build.SourceBranchName'] }}
   ${{ else }}:
-    otxVersion: '23.1'
+    otxVersion: '24.1'
 name: $(otxVersion).$(Rev:r)
 trigger:
 - master
